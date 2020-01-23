@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5c34b42e-29a9-400f-8227-fcb1fadc5b58" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/farmers/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/farmers/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/farmers/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/farmers/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/farmers/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/farmers/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/farmers/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/farmers/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/farmers/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/farmers/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/farmers/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/farmers/views.py" afterDir="false" />
-    </list>
+    <list default="true" id="5c34b42e-29a9-400f-8227-fcb1fadc5b58" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

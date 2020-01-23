@@ -10,10 +10,20 @@ from django.contrib.auth.models import User
 def welcome(request):
     current_user =request.user
     posts = Image.images_all()
-    # profile = Profile.objects.get(username=current_user)
     users = Profile.objects.all()
     to_follow = User.objects.all().exclude(id=request.user.id)
     return render(request, 'index.html', {"posts":posts,"profile":profile, "users":users, "views":to_follow})
+def tools(request):
+    
+    return render(request, 'tools.html')
+
+def wether(request):
+    
+    return render(request, 'wether.html')
+
+def market(request):
+
+    return render(request, 'market.html')
 
 def search_results(request):
     if 'image_name' in request.GET and request.GET["image_name"]:
@@ -71,7 +81,7 @@ def myProfile(request,id):
     bio = Bio.objects.get(user = user)
     option = Option.objects.get(user = user)
     return render(request,'profile.html',{"user":user, "profiles":profiles,"profile-photo":profile_photo, "bio":Bio, "option":Option })
-
+      
 
 
     

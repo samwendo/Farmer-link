@@ -296,7 +296,7 @@ ul{
       <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4" style="margin-bottom: 20px;">
         {{user}}
         <strong>
-          <!-- <h2 style="color:rgb(42, 151, 165); text-align: center;">{{images.title}}</h2> -->
+        <h2 style="color:rgb(42, 151, 165); text-align: center;">{{images.title}}</h2> 
                        
           
           <h5 id='red'  style="background-color:rgb(42, 151, 165); text-align: center;" class="card-title"><b>{{post.image_name}}</b></h5>
@@ -325,14 +325,14 @@ ul{
       </div>
       {%endfor%}
     </div>
-    <hr style="width: 400px; margin-left: 0px">
+    <hr style="width: 50px; margin-left: 0px">
 
     {% for rating in post.rating.all %}
     <div class="row">
       <div class="col-md-1">
         <p style=" font-weight: bold; "><a style="color: black" href="/"> {{comment.user}}</p>
       </div>
-      <div class="col-md-4" style="margin-left: -25px">
+      <div class="col-md-3" style="margin-left: -25px">
         <p>{{rating.rating}}</p>
       </div>
     </div>
@@ -347,14 +347,14 @@ ul{
 <section class="our-webcoderskull padding-lg">
   <div class="container">
     <div class="row heading heading-icon">
-        <h2>PEOPLE YOU MAY KNOW</h2>
+        <h2>farmers you may know</h2>
     </div>
     <ul class="row">
       <li class="col-12 col-md-6 col-lg-3">
           <div class="cnt-block equal-hight" style="height: 349px;">
             <figure><img src="http://www.webcoderskull.com/img/team4.png" class="img-responsive" alt=""></figure>
-            <h3><a href="http://www.webcoderskull.com/">Web coder skull</a></h3>
-            <p>A buyer from munich</p>
+            <h3><a href="http://www.webcoderskull.com/">{{user}}</a></h3>
+            <p>A farmer from munich</p>
             <ul class="follow-us clearfix">
               <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
               <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
@@ -366,7 +366,7 @@ ul{
           <div class="cnt-block equal-hight" style="height: 349px;">
             <figure><img src="http://www.webcoderskull.com/img/team1.png" class="img-responsive" alt=""></figure>
             <h3><a href="#">Kappu </a></h3>
-            <p>a farmer from donmore</p>
+            <p>a farmer from Marsabit</p>
             <ul class="follow-us clearfix">
               <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
               <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
@@ -389,8 +389,8 @@ ul{
       <li class="col-12 col-md-6 col-lg-3">
           <div class="cnt-block equal-hight" style="height: 349px;">
             <figure><img src="http://www.webcoderskull.com/img/team2.png" class="img-responsive" alt=""></figure>
-            <h3><a href="http://www.webcoderskull.com/">Atul </a></h3>
-            <p>Freelance Web Developer</p>
+            <h3><a href="http://www.webcoderskull.com/">Atula </a></h3>
+            <p>A farmer from Gambia</p>
             <ul class="follow-us clearfix">
               <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
               <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
@@ -401,6 +401,8 @@ ul{
     </ul>
   </div>
 </section>
+
+<button  >    </button>
 
 </body>
 {% endblock %}
