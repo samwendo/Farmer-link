@@ -9,6 +9,7 @@ urlpatterns=[
     url('^search/', views.search_results, name = 'search_results'),
     url(r'^new/article$', views.new_post, name='new-article'),
     url(r'^new/profile$', views.new_profile, name='new-profile'),
+    url(r'^pest$', views.pest, name='pest'),
     url(r'^wether/$',views.wether, name='wether'),
     url(r'^tools/$', views.tools, name='tools'),
     url(r'^market/$', views.market, name='market'),

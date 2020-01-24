@@ -25,6 +25,10 @@ def market(request):
 
     return render(request, 'market.html')
 
+def pest(request):
+    
+    return render(request, 'pest.html')
+
 def search_results(request):
     if 'image_name' in request.GET and request.GET["image_name"]:
         search_term = request.GET.get("image_name")
